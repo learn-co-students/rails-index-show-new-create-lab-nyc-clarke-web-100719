@@ -34,7 +34,7 @@ The application you will be building is a Coupon app. Below is a high-level over
 
 * Your `index` page should show all of the coupons in the database.
 
-* The coupon codes on the `index` page should link to their corresponding coupon `show` page. You should use the `link_to` method and route helper methods instead of hard-coding an HTML `<a>` tag.
+* The coupon codes onn the `index` page should link to their corresponding coupon `show` page. You should use the `link_to` method and route helper methods instead of hard-coding an HTML `<a>` tag.
 
 * Your `show` page should render the specific coupon passed to the route. E.g., `coupons/4` should show the coupon with an ID of 4.
 
