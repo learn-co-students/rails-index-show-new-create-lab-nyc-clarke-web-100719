@@ -1,0 +1,6 @@
+<h1>Coupon</h1>
+
+<h1> <%= @coupon.to_str + " -" + " #{@coupon.id}" %></h1>
+<%= link_to "back", coupons_path %>
+<br>
+<%= link_to "create", new_coupon_path %>
