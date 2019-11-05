@@ -1,0 +1,20 @@
+
+<h1>Coupon Form</h1>
+
+<% if flash[:messages] %>
+  <ul>
+    <% flash[:messages].each do |message|  %>
+      <li><%= message %></li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= form_tag coupons_path do %>
+  <label>Coupon Code: </label><br>
+  <%= text_field_tag :'coupon[coupon_code]' %><br>
+
+  <label>Store: </label><br>
+  <%= text_field_tag :'coupon[store]' %><br>
+
+  <%= submit_tag "Submit Coupon" %>
+<% end %>
