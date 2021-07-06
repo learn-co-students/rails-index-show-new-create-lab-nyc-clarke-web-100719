@@ -1,0 +1,7 @@
+<h1>Index</h1>
+
+<div>
+    <% @coupons.each do |c| %>
+        <%= link_to c.collate, coupon_path(c) %><br>
+    <% end %>
+</div>
